@@ -6,24 +6,32 @@
             margin: 0;
             background-color: brown;
             list-style-type: none;
+            overflow:hidden;
         }
         li{
-            color:white;
+            float:left;
+        }
+        li a{
+            color:rgb(126, 0, 0);
             padding:16px;
             display:block;
             text-align: center;
+            text-decoration: none;
         }
         li a:hover{
-            color:crimson;
-            position:inherit;
+            background-color:crimson;
         }
     </style>
+    </head>
     <body>
         <ul>
-            <li>home</li>
-            <li>contact</li>
-            <li>number</li>
+            <li><a href="home">HOME</a></li>
+            <li><a href="contact">CONTACT</a></li>
+            <li><a href="number">number</a></li>
         </ul>
+        <h1>my <span style="color:lawngreen">important</span>heading</h1>
+        <iframe height="300px" width="100%" src="laptop.jpg"></iframe>
+        <p><a href="https://www.w3schools.com" target="iframe">w3schools</a></p>
     </body>
-</head>
+
 </html>
