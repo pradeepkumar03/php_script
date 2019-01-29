@@ -1,7 +1,5 @@
-<html>
-<body>
+
 <?php
-echo srtpos("hello  world","world")
+echo strpos("hello  world","world")
 ?>
-</body>
-</html>
+
