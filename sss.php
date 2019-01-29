@@ -9,4 +9,5 @@ function func($arg)  {
  }
  return $result;
 }
+
 echo func(5);
