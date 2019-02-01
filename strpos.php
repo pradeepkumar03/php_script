@@ -1,5 +1,5 @@
 
 <?php
-echo strpos("hello  world","world")
+echo strpos("hello  world","World")
 ?>
 
