@@ -1,3 +1,2 @@
 <?php
-echo "How many questions would you like to attend:  "
-?>
+$numberOfQuestions=readline("How many questions would you like to answer: ")
