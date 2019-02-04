@@ -7,4 +7,6 @@ function mytest(){
 }
 mytest();
 echo $y;
+echo "today is ".date("Y/m/d");
+&copy; 2010-echo date("Y");
 ?>
