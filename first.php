@@ -1,7 +1,7 @@
 <?php
 $numberOfQuestions = readline("How many questions would you like to answer: ");
 echo "I will give you a total of $numberOfQuestions questions.\n";
-
+$q=array("question"=>array(),"correctanswer"=>array(),"useranswer"=>array());
 for($i=1;$i<=$numberOfQuestions;$i++)
 {
     $a=rand(20,50);
@@ -9,13 +9,14 @@ for($i=1;$i<=$numberOfQuestions;$i++)
     $answer=$a+$b;
     echo "\n $a+$b=?";
     $c=readline();
-
-$h=array
-(
-    array($i,$answer,$c),
-    
-);
-echo $h=[0][0].":correct answer: ".$h[0][1].",user's answer: ".$h[0][2]."\n";
+    e
 }
-
-?>
+$questionnumber=1;
+   for($i=0;$i<$numberOfQuestions;$i++)
+   {
+    echo"\n YOUR SCORECARD:";
+    echo"\n$questionnumber. $a+$b=?";
+    echo"\n your answer is:";
+    echo"\n correct answer is ";
+   }
+   ?>
